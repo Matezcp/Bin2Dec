@@ -9,7 +9,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/Bin2Dec/'>
               <Home />
             </Route>
           </Switch>
