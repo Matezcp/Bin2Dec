@@ -5,6 +5,7 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>Bin2Dec</h1>
             <div className="links">
+                {/*Testing*/}
                 <Link to='/Bin2Dec/'>Home</Link>
                 <Link to='/Bin2Dec/about'>How the Math Works</Link>
             </div>
