@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Bin2Dec/static/css/main.6fe13fde.chunk.css",
-    "main.js": "/Bin2Dec/static/js/main.f1fde401.chunk.js",
-    "main.js.map": "/Bin2Dec/static/js/main.f1fde401.chunk.js.map",
+    "main.js": "/Bin2Dec/static/js/main.413778c4.chunk.js",
+    "main.js.map": "/Bin2Dec/static/js/main.413778c4.chunk.js.map",
     "runtime-main.js": "/Bin2Dec/static/js/runtime-main.16f876d5.js",
     "runtime-main.js.map": "/Bin2Dec/static/js/runtime-main.16f876d5.js.map",
     "static/js/2.0c5ce321.chunk.js": "/Bin2Dec/static/js/2.0c5ce321.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.16f876d5.js",
     "static/js/2.0c5ce321.chunk.js",
     "static/css/main.6fe13fde.chunk.css",
-    "static/js/main.f1fde401.chunk.js"
+    "static/js/main.413778c4.chunk.js"
   ]
 }
