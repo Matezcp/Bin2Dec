@@ -18,6 +18,7 @@ body{
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
+  font-size: 20px;
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
@@ -83,6 +84,34 @@ body{
 .home button:hover{
   color: rgba(231, 231, 231, 0.884);
   cursor: pointer;
+}
+
+/* About Style */
+.about{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2{
+  color: #3af873;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.about #example{
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.about p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about span{
+  font-size: 30px;
+  color: #3af873; 
 }
 
 /* Input Number side arrow */
