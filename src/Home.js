@@ -5,19 +5,29 @@ const Home = () => {
     const [bin,setBin] = useState('')
     const [dec,setDec] = useState('')
 
+    //Verify if is a binary number
+    const isBinary = () => {
+        for(var i=0; bin[i] === '0' || bin[i] === '1'; i++){}
+        return i === bin.length
+    }
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        let decimal = 0;
+        if(isBinary()){
+            let decimal = 0;
         
-        for(let i=bin.length-1,potencia=1 ;i>=0; i--,potencia*= 2){
-            if (bin[i] == 1){
-                decimal += potencia;
+            for(let i=bin.length-1,potencia=1 ;i>=0; i--,potencia*= 2){
+                if (bin[i] === '1'){
+                    decimal += potencia;
+                }
             }
-        }
 
-        setDec(decimal)
-        
+            setDec(decimal)
+        }
+        else{
+            setDec('Not a Binary Number')
+        }
 
     }
 
@@ -27,6 +37,7 @@ const Home = () => {
             <form onSubmit={handleSubmit}>
                 <label>Binary:</label>
                 <input
+                autoFocus
                 type='number'
                 value={bin}
                 onChange={(e) => setBin(e.target.value)}
@@ -34,7 +45,7 @@ const Home = () => {
                 <label>Decimal:</label>
                 <input
                 disabled
-                type='number'
+                type='text'
                 value={dec}
                 onChange={(e) => setDec(e.target.value)}
                 />
