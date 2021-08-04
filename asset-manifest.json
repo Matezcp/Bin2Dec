@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Bin2Dec/static/css/main.541545e0.chunk.css",
-    "main.js": "/Bin2Dec/static/js/main.d435651d.chunk.js",
-    "main.js.map": "/Bin2Dec/static/js/main.d435651d.chunk.js.map",
+    "main.css": "/Bin2Dec/static/css/main.e5f5ceac.chunk.css",
+    "main.js": "/Bin2Dec/static/js/main.870dcd69.chunk.js",
+    "main.js.map": "/Bin2Dec/static/js/main.870dcd69.chunk.js.map",
     "runtime-main.js": "/Bin2Dec/static/js/runtime-main.16f876d5.js",
     "runtime-main.js.map": "/Bin2Dec/static/js/runtime-main.16f876d5.js.map",
     "static/js/2.0c5ce321.chunk.js": "/Bin2Dec/static/js/2.0c5ce321.chunk.js",
     "static/js/2.0c5ce321.chunk.js.map": "/Bin2Dec/static/js/2.0c5ce321.chunk.js.map",
     "index.html": "/Bin2Dec/index.html",
-    "static/css/main.541545e0.chunk.css.map": "/Bin2Dec/static/css/main.541545e0.chunk.css.map",
+    "static/css/main.e5f5ceac.chunk.css.map": "/Bin2Dec/static/css/main.e5f5ceac.chunk.css.map",
     "static/js/2.0c5ce321.chunk.js.LICENSE.txt": "/Bin2Dec/static/js/2.0c5ce321.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.16f876d5.js",
     "static/js/2.0c5ce321.chunk.js",
-    "static/css/main.541545e0.chunk.css",
-    "static/js/main.d435651d.chunk.js"
+    "static/css/main.e5f5ceac.chunk.css",
+    "static/js/main.870dcd69.chunk.js"
   ]
 }
