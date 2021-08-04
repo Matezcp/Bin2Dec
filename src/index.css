@@ -35,6 +35,13 @@ body{
 .navbar a:hover {
   color: #3af873;
 }
+
+.navbar img{
+  height: 2rem;
+  vertical-align: middle;
+  
+}
+
 .content {
   max-width: 600px;
   margin: 40px auto;
